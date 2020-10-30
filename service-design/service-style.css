@@ -1,0 +1,347 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+	
+	margin: 0;
+	padding: 0;
+	
+}
+/*------NAVIGATION--------*/
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 2;
+	width: 100%;
+}
+
+.navbar-brand img{
+	height: auto;
+	padding-left: 30px;
+}
+.navbar-nav li{
+	padding: 0 10px;
+}
+.navbar-nav li a{
+	float: right;
+	text-align: left;
+	color: #c8c8ca!important;
+}
+#nav-bar ul li a:hover{
+	color: #fff!important;
+	
+}
+.navbar{
+	background: #050a1d;
+	z-index: 2;
+}
+.navbar-toggler{
+	border: none!important;
+	
+}
+.nav-link{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+
+
+
+/*------------------vid-bg-----------------------*/
+.vid-bg{
+	background: rgba(22,22,22,0.5);
+	height: 95vh;
+}
+
+
+
+.video-background{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	min-width: 100%;
+	width: 100%;
+	z-index: -1;
+}
+.vision{
+	
+	display: block;
+	color: #f0fff0;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+	
+	font-family: 'Vast Shadow', cursive;
+	height: 50%;
+	
+	
+	/*font-family: 'Freckle Face', cursive;
+	font-family: 'Rye', cursive;
+	font-family: 'Sofadi One', cursive;
+	font-family: 'Indie Flower', cursive;*/
+}
+.vision h1{
+	
+	
+	font-size: 60px;
+	font-weight: 600;
+	border-bottom: 2px solid white;
+	padding-top: 90px;
+	letter-spacing: 5px;
+}
+.vision h5{
+	padding: 50px;
+	font-size: 20px;
+	font-family: 'Sofadi One', cursive;
+	line-height: 2;
+}
+.buttons{
+	width: auto;
+	justify-content: space-around;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	top: 150px;
+}
+.buttons .btn{
+	font-size: 18px;
+	color: #fff;
+	margin: 5px;
+	padding: 7px 22px;
+	text-decoration: none;
+	border: none;
+	border-radius: 25px;
+}
+.btn-watch, .btn-more{
+	background-color: #13a1db!important;
+}
+
+
+.btn-watch:hover, .btn-more:hover{
+	background-color: #050a1d!important;
+	border: none!important;
+	transition: .5s!important;
+	color: white!important;
+}
+
+/*--------MAIN-SERVICES-------------*/
+.main-services{
+	background-color: rgb(203 208 215 / 0.6);
+	padding: 1px 0;
+	
+}
+.ev-mgt, .sales, .sponsorship, .guest-liasion{
+	background-color: rgb(19 161 219 / 0.8);
+	padding: 40px 0;
+	color: #555;
+	height: 40vh;
+	margin: 5px;
+	margin: 40px 0;
+}
+.serv-name{
+	font-family: 'Sofadi One', cursive;
+	width: 50%;
+	margin-top: -40px;
+	justify-content: start;
+	
+}
+
+.serv-name h1{
+	text-align: center;
+	color: #f0fff0;
+	text-decoration: underline;
+	font-size: 35px;
+	
+}
+.service-video{
+	
+	height: 250px;
+	z-index: 1;
+	
+	
+}
+.video-ev-mgt, .video-sales, .video-sponsorship, .video-guest-liasion{
+	filter:opacity(80%);
+}
+#myBtn{
+	margin: 15px;
+	border-radius: 15px;
+}
+
+.about-service{
+	
+	max-width: 100%!important;
+	color: white!important;
+	border: none!important;
+	text-align: center;
+	padding: 0 10px;
+	margin:auto;
+}	
+#more{
+	display: none;
+}
+
+
+/*-------------------------------MORE-SERVICES-------------------------------*/
+
+.more-services{
+	padding-top: 110px;
+	padding-bottom: 120px;
+	font-family: 'Yanone Kaffeesatz', sans-serif; 
+	background-color: #211f24;
+	color: #fff;
+}
+.more-services .header-section{
+	margin-bottom: 35px;
+	
+}
+.more-services .header-section .title{
+	position: relative;
+	margin-bottom: 40px;
+	padding-bottom: 25px;
+	text-transform: uppercase;
+	font-weight: 700;
+	
+}
+.more-services .header-section .title:before{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 140px;
+	height: 1px;
+	background-color: rgb(19 161 219 / 0.8);
+	
+}
+.more-services .header-section .title:after{
+	content: "";
+	position: absolute;
+	bottom: -1px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 45px;
+	height: 3px;
+	background-color: rgb(19 161 219 / 0.8);
+	
+}
+.more-services .header-section .title span{
+	color: rgb(19 161 219 / 0.8);
+}
+.more-services .header-section .description{
+	color: #c5c5d6;
+	font-size: 20px;
+}
+.more-services .single-service{
+	margin-top: 40px;
+	background-color: #24252a;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+}
+.more-services .single-service:hover{
+	box-shadow: 0 10px 25px rgb(19 161 219 / 0.8); 	
+	cursor: pointer;
+}
+
+.more-services .single-service .part-1{
+	padding: 40px 40px 25px;
+	border-bottom: 2px solid #1d1e23;
+	
+}
+.more-services .single-service .part-1 .icon-cont{
+	
+}
+.more-services .single-service .part-1 i{
+	margin-bottom: 25px;
+	font-size: 50px;
+	color: rgb(19 161 219 / 0.8);
+	border: 5px solid rgba(255,255,255,0.3);
+	border-radius: 50%;
+	padding: 20px;
+	z-index: 5;
+	box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.5),
+				0 0 0 0px rgba(3,   108, 129, 0.5);
+}
+.more-services .single-service:hover .part-1 i{
+	animation: shady 4s linear infinite;
+	
+}
+@keyframes shady{
+	0%{
+		box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.5),
+					0 0 0 0px rgba(3, 108, 129, 0.0);
+	}
+	20%{
+		box-shadow: 0 0 0 80px rgba(255, 255, 255, 0),
+					0 0 0 0px rgba(3, 108, 129, 0.0);
+	}
+	
+}
+
+
+
+.more-services .single-service .part-1 .title{
+	font-size: 22px;
+	font-weight: 600;
+	letter-spacing: 0.02em;
+	line-height: 1.8em;
+}
+.more-services .single-service .part-2{
+	padding: 30px 40px 40px;
+}
+.more-services .single-service .part-2 .description{
+	margin-bottom: 22px;
+	color: #c5c5d6;
+	font-size: 20px;
+	line-height: 1.8em;
+}
+
+.more-services .single-service .part-2 a{
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+.more-services .single-service .part-2 a i{
+	margin-right: 10px;
+	color: rgb(19 161 219 / 0.8);
+}
+/*----------------------------------MISSION-----------------------------------*/
+.mission{
+	font-family:  'Yanone Kaffeesatz', cursive;
+	background: #eeeef7;
+	
+}
+.mission h5{
+	font-weight: 600;
+	font-size: 30px!important;
+	padding: 30px 0;
+	
+}
+
+/*----------------------------------BUTTONS---------------------------------*/
+
+#butn{
+	width: 100%;
+	background-color: #f1efefb0;
+	margin: 50px 0;
+	
+}
+#butn button{
+	border-radius: 25px;
+	margin: 5px;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+/*---------------------------FOOTER------------------------*/
+.page-footer{
+	background-color: #050a1d;
+	color: #c8c8ca;
+}
+.page-footer .break{
+	border-bottom: 2px solid #c8c8ca;
+}
+
